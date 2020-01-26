@@ -4,26 +4,26 @@ import 'package:students_de/Model/Students_De.dart';
 void main() {
 runApp(MyApp());
 
-StudentsDetails studentsDetails = new StudentsDetails();
-studentsDetails.getName = "Prabhu Sir";
-studentsDetails.studentList.add(studentsDetails.getName);
-studentsDetails.getEmail = "Psir@gmail.com";
-studentsDetails.studentList.add(studentsDetails.getEmail);
+StudentsDetails studentsDetails = new StudentsDetails();//Object creation of model class(StudentInfo).
+studentsDetails.getName = "Prabhu Sir";//calling setter method set the studentName of student
+studentsDetails.studentList.add(studentsDetails.getName);//inserting studentName in list through add() method of growable list.
+studentsDetails.getEmail = "Psir@gmail.com";//calling setter method set the studentEmail of student
+studentsDetails.studentList.add(studentsDetails.getEmail);//inserting studentEmail in list through add() method of growable list.
 
-studentsDetails.getName = "Ganesh";
-studentsDetails.studentList.add(studentsDetails.getName);
-studentsDetails.getEmail = "Ganesh@gmail.com";
-studentsDetails.studentList.add(studentsDetails.getEmail);
+studentsDetails.getName = "Ganesh";//calling setter method set the studentName of student
+studentsDetails.studentList.add(studentsDetails.getName);//inserting studentName in list through add() method of growable list.
+studentsDetails.getEmail = "Ganesh@gmail.com";//calling setter method set the studentEmail of student
+studentsDetails.studentList.add(studentsDetails.getEmail);//inserting studentEmail in list through add() method of growable list.
 
-studentsDetails.getName = "Manoj";
-studentsDetails.studentList.add(studentsDetails.getName);
-studentsDetails.getEmail = "Manoj@gmail.com";
-studentsDetails.studentList.add(studentsDetails.getEmail);
+studentsDetails.getName = "Manoj";//calling setter method set the studentName of student
+studentsDetails.studentList.add(studentsDetails.getName);//inserting studentName in list through add() method of growable list.
+studentsDetails.getEmail = "Manoj@gmail.com";//calling setter method set the studentEmail of student
+studentsDetails.studentList.add(studentsDetails.getEmail);//inserting studentEmail in list through add() method of growable list.
 
-studentsDetails.getName = "Ranjeet";
-studentsDetails.studentList.add(studentsDetails.getName);
-studentsDetails.getEmail = "Ranjeet@gmail.com";
-studentsDetails.studentList.add(studentsDetails.getEmail);
+studentsDetails.getName = "Ranjeet";//calling setter method set the studentName of student
+studentsDetails.studentList.add(studentsDetails.getName);//inserting studentName in list through add() method of growable list.
+studentsDetails.getEmail = "Ranjeet@gmail.com";//calling setter method set the studentEmail of student
+studentsDetails.studentList.add(studentsDetails.getEmail);//inserting studentEmail in list through add() method of growable list.
 
 
 print(studentsDetails.studentList);
