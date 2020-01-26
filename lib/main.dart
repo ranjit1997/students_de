@@ -26,7 +26,7 @@ studentsDetails.getEmail = "Ranjeet@gmail.com";//calling setter method set the s
 studentsDetails.studentList.add(studentsDetails.getEmail);//inserting studentEmail in list through add() method of growable list.
 
 
-print(studentsDetails.studentList);
+print(studentsDetails.studentList);//displaying list of studentName & studentEmail present in list.
 
 }
 
